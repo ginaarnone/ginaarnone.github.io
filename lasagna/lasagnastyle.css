@@ -1,0 +1,72 @@
+/*CSS DOCUMENT*/
+
+body{
+    margin:0em 4em 4em 4em;
+    background-color: rgb(255, 245, 224);
+}
+img {
+    width: 100%;
+    
+}
+
+div.container{
+    width:55%;
+}
+h1{
+    font-family:sans-serif;
+    font-size: 2em;
+    color: rgb(28, 28, 28);
+    text-decoration: overline;
+    text-decoration-color: rgb(227, 18, 36);
+    margin-bottom: 0em;
+}
+h2{
+    font-family:cursive;
+    font-size: 1.5em;
+    color:rgb(227, 18, 36);
+    margin:0em 0em 1em;
+   
+}
+h3{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color:rgb(227, 18, 36);
+    letter-spacing: 0.03em;
+    
+}
+
+div.ingredients li{
+    font-family: sans-serif;
+    color: rgb(110, 110, 110);
+    
+}
+
+div.ingredients {
+    margin-top:22em;
+}
+div.ingredients ul{
+   margin:0em 2em 2em;
+}
+div.ingredients li{
+    padding:0.1em;
+}
+
+div.intro p{
+    font-size:1.2em;
+    width:40%;
+    float:left;
+    margin:0em 1em 1em 1.5em;
+    
+}
+div.introimage{
+    width:50%;
+    float:left;
+    
+    
+}
+div.directions li{
+    padding:0.3em;
+}
+h6{
+    color:rgb(110, 110, 110);
+}
