@@ -1,7 +1,7 @@
 /*CSS DOCUMENT*/
 
 body{
-    margin:0em 4em 4em 4em;
+    margin:0.5em 4em 4em 3em;
     background-color: rgb(255, 245, 224);
 }
 img {
@@ -56,10 +56,10 @@ div.intro p{
     width:40%;
     float:left;
     margin:0em 1em 1em 1.5em;
-    
+    line-height: 1.2em;
 }
 div.introimage{
-    width:50%;
+    width:51%;
     float:left;
     
     
