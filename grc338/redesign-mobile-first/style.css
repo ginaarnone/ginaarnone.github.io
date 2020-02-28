@@ -1,0 +1,243 @@
+img{
+    width:100%; 
+}
+
+header{
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+}
+
+img.logo{
+    width:18em;
+    margin:auto;
+    
+}
+
+.header h2{
+    text-align: center;
+    text-transform:none;
+    color:rgb(255, 141, 112);  
+    font-family: serif;
+}
+
+span.emphasis{
+    font-style: italic;
+}
+
+body{
+    width:100%;
+    background-color:rgb(194, 227, 255);
+    padding-top:1em;
+}
+
+div.favorites{ 
+    float:left;
+    margin-bottom:3em;
+    margin-top:2em;
+}
+
+div.nav h3{
+    text-decoration: none;
+    font-size: 1.8em;
+}
+
+div.nav li{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    list-style-type: none;
+    
+}
+
+.nav ul{
+    width:55%;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+div.nav{
+    text-align:center;
+    margin-top:2em;
+    border-color: rgb(255, 141, 112);
+    border-style:double;
+    border-width:5px;
+    margin-bottom:1em;
+}
+
+.nav a{
+    text-decoration:none;
+    color:rgb(43, 42, 105);
+}
+
+.nav a:hover{
+    color:rgb(255, 141, 112);
+}
+
+div.favorites{
+    clear:both;  
+}
+
+div.info{
+    width:100%;
+}
+
+.info h3{
+    margin:0;
+    padding:0;
+}
+
+h2{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color:rgb(43, 42, 105);
+}
+
+h3{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color:rgb(255, 141, 112);
+    font-size:1.5em;
+}
+
+p{
+    color:rgb(43, 42, 105);
+}
+
+h4{
+    font-family: sans-serif;
+    color:rgb(43, 42, 105);
+    text-decoration:underline;
+}
+
+div.hours a{
+    color:rgb(43, 42, 105);
+}
+
+div.hours a:hover{
+    color:rgb(255, 141, 112);
+}
+
+.reviews h5{
+    font-family: sans-serif;
+    color:rgb(255, 141, 112); 
+    font-size: 1em; 
+    margin:0;
+    padding:0;
+}
+.reviews h2{
+    margin-bottom:1.5em;
+}
+
+.reviews ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+span.notprice{
+    color:rgb(43, 42, 105);
+    font-family: serif;
+}
+
+.menu h4{
+    text-decoration:none;
+}
+.menu p{
+    font-family: sans-serif;
+    color:rgb(255, 141, 112);
+}
+.reviews li{
+    margin-bottom:3em;
+}
+
+@media only screen and (min-width:15em){
+    
+    div.container{
+       width:80%;
+       margin:auto;
+       text-align:center;
+}
+    
+    div.info{
+        float:left;
+}
+    
+    .nav li{
+        text-transform: uppercase;
+        list-style-type: none;
+        font-size:.8em;
+        
+}
+    
+    .nav ul{
+        margin:auto;
+        list-style-type: none;
+}
+    
+    .hours{
+        margin:auto;
+        text-align:center;
+        margin-bottom:2.1em;
+}
+    
+    .address{
+        margin:auto;
+        text-align:center;
+        margin-bottom:2em;
+}
+    
+    .contact{
+        margin:auto;
+        text-align:center;
+        margin-bottom:2em;
+}
+    .menu li{
+        text-align:left;
+    }
+    .menu{
+        margin-bottom:3em;
+    }
+}
+    
+@media only screen and (min-width:55em){
+    
+    body{
+        max-width:70em;    
+}
+        
+    div.container{
+       width:70%;
+       margin:auto;
+        text-align:center;
+}
+        
+    .favorites{
+        width:100%;
+        clear:both;
+        
+}
+        
+    div.address{  
+        float:left;
+        margin-right:1em;
+        width:30%;
+}
+        
+    div.hours{
+        margin-right:1.2em;
+        float:left;
+        width:30%;
+        
+}
+    
+    div.contact{
+        margin-right:1em;
+        width:30%;
+        float:left;
+}
+
+    div.nav ul{
+        margin:auto;
+}
+}
