@@ -158,6 +158,7 @@ span.notprice{
 .menu h4{
     text-decoration:none;
 }
+
 .menu p{
     font-family: sans-serif;
     color:rgb(255, 141, 112);
@@ -221,10 +222,10 @@ span.notprice{
 }
     .menu li{
         text-align:left;
-    }
+}
     .menu{
         margin-bottom:3em;
-    }
+}
 }
 
 
@@ -247,10 +248,11 @@ span.notprice{
         clear:both;
         
 }
+
     .info{
         margin:auto;
         margin-bottom:4em;
-    }
+}
         
     div.address{  
         float:left;
@@ -275,9 +277,11 @@ span.notprice{
         float:left;
         
 }
+
     .info p{
         text-align:center;
 }
+
     div.nav ul{
         margin:auto;
     
