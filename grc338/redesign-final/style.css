@@ -1,0 +1,286 @@
+img{
+    width:100%; 
+    border-radius: 40px;
+}
+
+header{
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+}
+
+img.logo{
+    width:18em;
+    margin:auto;
+    margin-top:2em;
+    
+}
+
+.header h2{
+    text-align: center;
+    text-transform:none;
+    color:rgb(255, 141, 112);  
+    font-family: 'Spartan';
+    line-height: 1.3em;
+    font-size:1.4em;
+    margin-bottom:2.5em;
+}
+
+span.emphasis{
+    font-style: italic;
+}
+
+body{
+    width:100%;
+    background-color:rgb(218, 234, 237);
+    padding-top:1em;
+}
+
+div.favorites{ 
+    float:left;
+    margin-bottom:3em;
+    
+}
+
+div.nav h3{
+    text-decoration: none;
+    font-size: 1.8em;
+    font-family: 'Pacifico';
+
+}
+
+div.nav li{
+    font-family: 'Pacifico';
+    list-style-type: none;
+    padding-top:1em;
+}
+
+.nav ul{
+    width:55%;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+div.nav{
+    text-align:center;
+    margin-top:3em;
+    margin-bottom:3em;
+  
+}
+
+.nav a{
+    text-decoration:none;
+    color:rgb(43, 42, 105);
+    background-color:rgb(255, 141, 112);
+    padding:.1em .6em .2em;
+    font-family: 'Pacifico';
+    font-size:1.8em;
+
+}
+
+.nav a:hover{
+    color:rgb(255, 255, 255);
+}
+
+div.favorites{
+    clear:both;  
+}
+
+div.info{
+    width:100%;
+}
+
+.info h3{
+    margin:0;
+    padding:0;
+}
+
+h2{
+    font-family: 'Pacifico';
+    color:rgb(43, 42, 105);
+    font-size:1.7em;
+}
+
+h3{
+    font-family: 'Pacifico';
+    color:rgb(255, 141, 112);
+    font-size:1.8em;
+}
+
+p{
+    color:rgb(43, 42, 105);
+    font-family: 'Spartan';
+}
+
+h4{
+    font-family: sans-serif;
+    color:rgb(43, 42, 105);
+    text-decoration:underline;
+    font-family: 'Spartan';
+    font-size:1.1em;
+}
+
+div.hours a{
+    color:rgb(43, 42, 105);
+}
+
+div.hours a:hover{
+    color:rgb(255, 141, 112);
+}
+
+.reviews h5{
+    color:rgb(255, 141, 112); 
+    font-size: 1.1em; 
+    margin:0;
+    padding:0;
+    font-family:'Spartan';
+}
+.reviews h2{
+    margin-bottom:1.5em;
+    font-family: 'Pacifico';
+    font-size:1.7em;
+}
+
+.reviews ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+span.notprice{
+    color:rgb(43, 42, 105);
+    font-family: 'Spartan';
+}
+
+
+
+.menu h4{
+    text-decoration:none;
+}
+.menu p{
+    font-family: sans-serif;
+    color:rgb(255, 141, 112);
+    font-family: 'Spartan';
+}
+
+.menu h5{
+    font-family: 'Spartan';
+}
+
+.reviews li{
+    margin-bottom:3em;
+}
+
+.roundbutton{
+    background-color:rgb(255, 141, 112);
+    border-radius:25px;
+}
+
+
+@media only screen and (min-width:15em){
+    
+    div.container{
+       width:80%;
+       margin:auto;
+       text-align:center;
+}
+    
+    div.info{
+        float:left;
+}
+    
+    .nav li{
+        list-style-type: none;
+        font-size:1em;
+        line-height:3em;
+        
+}
+    
+    .nav ul{
+        margin:auto;
+        list-style-type: none;
+}
+    
+    .hours{
+        margin:auto;
+        text-align:center;
+        margin-bottom:2.1em;
+}
+    
+    .address{
+        margin:auto;
+        text-align:center;
+        margin-bottom:2em;
+}
+    
+    .contact{
+        margin:auto;
+        text-align:center;
+        margin-bottom:2em;
+}
+    .menu li{
+        text-align:left;
+    }
+    .menu{
+        margin-bottom:3em;
+    }
+}
+
+
+@media only screen and (min-width:55em){
+    
+    body{
+        max-width:70em;    
+        margin:auto;
+}
+        
+    div.container{
+       width:58%;
+       margin:auto;
+       text-align:center;
+        
+}
+        
+    .favorites{
+        width:100%;
+        clear:both;
+        
+}
+    .info{
+        margin:auto;
+        margin-bottom:4em;
+    }
+        
+    div.address{  
+        float:left;
+        margin-right:1em;
+        width:30%;
+        text-align:center;
+        margin-left:.3em;
+    
+}
+        
+    div.hours{
+        padding-right:1em;
+        float:left;
+        width:30%;
+        text-align:center;
+        
+}
+    
+    div.contact{
+        text-align:center;
+        width:30%;
+        float:left;
+        
+}
+    .info p{
+        text-align:center;
+}
+    div.nav ul{
+        margin:auto;
+    
+}
+    
+}
